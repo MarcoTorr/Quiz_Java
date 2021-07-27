@@ -503,8 +503,4 @@ startButton.addEventListener("click",function(){
     List3.style.display="block";
     List4.style.display="block";
     divList.style.display="block";
-<<<<<<< HEAD
-});
-=======
     });
->>>>>>> f4804f33f0874122ccd207dc6e56765f7eab616f
