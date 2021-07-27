@@ -503,3 +503,4 @@ startButton.addEventListener("click",function(){
     List3.style.display="block";
     List4.style.display="block";
     divList.style.display="block";
+    });
