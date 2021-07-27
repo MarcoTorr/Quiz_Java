@@ -9,11 +9,6 @@ var answersEl3= document.querySelector("#Answer_3");
 var answersEl4= document.querySelector("#Answer_4");
 var results= document.querySelector("#results");
 var viewHighscores = document.querySelector("#highscores");
-var divList= document.querySelector("#Answers");
-var List1= document.querySelector("#List1");
-var List2= document.querySelector("#List2");
-var List3= document.querySelector("#List3");
-var List4= document.querySelector("#List4");
 
 
 var pass;
@@ -495,12 +490,3 @@ viewHighscores.addEventListener("click",function(){
     var show = confirm("The last highschore is from:"+ inputName +"     "+ "Right answers: "+ finalRights +"    "+ "Wrong answers: "+ finalWrongs);
 });
 startButton.addEventListener("click", startQuiz);
-
-startButton.addEventListener("click",function(){
-    startQuiz();
-    List1.style.display="block";
-    List2.style.display="block";
-    List3.style.display="block";
-    List4.style.display="block";
-    divList.style.display="block";
-    });
