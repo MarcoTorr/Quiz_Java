@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="header">
+            <div class="header-table">
+                <ul>
+                    <li class="highscores">
+                        <button id="highscores">View highscores</button>
+                    </li>
+                    <li class="timer">
+                        <div id="timer-count" class="timer-count">60</div>
+                        <h3>seconds remaining</h3>
+                    </li>
+                </ul>
+            </div>
+      </header>
+      <main>
+        <section>
+            <div class="Question_generator">
+              <div id="Questions" class="Questions">Code Quiz</div>
+              <p id="intro"><bold>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</bold></p>
+              <div id="Answers" class="Answers">
+                  <ul class="List_Answers" id="List_Answers">
+                      <li >
+                          <button id="Answer_1"></button>
+                      </li>
+                      <li >
+                          <button id="Answer_2"></button>
+                      </li>
+                      <li >
+                          <button id="Answer_3"></button>
+                      </li>
+                      <li >
+                          <button id="Answer_4"></button>
+                      </li>
+                  </ul>
+              </div>
+              <div id="quiz_results">
+                  <span id="results" class="result"></span>
+              </div>
+            </div>
+        </section> 
+        <section>
+            <div id="button" class="button">
+                <button id="start" class="start">Start Quiz</button>  
+            </div>
+        </section>  
+      </main>
+      <script src="assets/script.js"></script> 
+  </body>
+  </html>
+
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
